@@ -553,6 +553,12 @@ default['mesos']['options'] = {
       'default' => '/tmp/mesos',
       'flag' => false,
       'deprecated' => false
+    },
+    'acls' => {
+      'version' => ['0.20.0', '0.20.1', '0.21.0', '0.21.1', '0.22.0', '0.22.1'],
+      'default' => '',
+      'flag' => false,
+      'deprecated' => false
     }
   }
 }
